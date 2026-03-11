@@ -1,0 +1,6 @@
+=== RG Flow Exponents ===
+RG flow: z0=3.500, z1=8.000, beta_eff=-1.193, f_J=4.000, alpha_eff=-2.000
+=== Regge Action ===
+Regge action (triangular mesh): 47.461083
+=== Discrete EM ===
+Discrete EM action: 0.174452
