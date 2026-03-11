@@ -23,7 +23,9 @@ C1 = |a| / 4  (from d4_rows.json, field "a")
 
 ---
 
-**Step 3**
+**Step 3 — C2 and C3**
 
-
-
+```bash
+python3 measure_c2c3.py --fss_json fss_final/d4_rows.json --Lvals 5,7,9 --nwalks 60000 --nseeds 5 --out c2c3_out
+```
+C2 currently overshoots because diagonal edges at small L (L=5) nearly saturate the graph and the FSS fit extrapolates above 4. The C2 number is statistically significant but physically the 3-point fit is fragile — C1 and C3 are the reliable ones.
