@@ -5,7 +5,7 @@
 ---
 
 
-**Step 1 — verify the torus passes all axioms**
+**Step 1 — verify check that the torus satisfies all the axioms**
 
 ```bash
 python3 auto_continuum_check_v3.py --out out_v3 --L4 5
